@@ -1,12 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    test
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Frontend Practice</title>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="container">
+                <a href="index.html"> Remember<span>Me</span></a>
+                <img id="mobile-cta" class="mobile-menu"src="images/menu.svg" alt="Open Navigation">
+                <nav>
+                    <img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="close navigation">
+
+                    <ul class="primary-nav">
+                        <li class="current"><a href="#">Home</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        
+                    </ul>
+
+                    <ul class="secondary-nav">
+                        <li><a href="#">Contact</a></li>
+                        <li class="go-premium-cta"><a href="#">Go Premium</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <section class="hero">
+            <div class="container">
+                <div class="left-col">
+                    <p class="sub-head">It's Nitty &amp; Gritty</p>
+                    <h1>A Task App That Doesn't Stink</h1>
+                    <div class="class-hero-cta">
+                        <a href="#" class="primary-cta"> Try for free</a>
+                        <a href="#" class="watch-video-cta"> 
+                            <img src="images/watch.svg" alt="watch a video"> Watch a video
+                        </a>
+                    </div>
+                </div>
+
+                <img src="images/illustration.svg" class="hero-image" alt="illustration image">
+            </div>
+        </section>
+
+
+        <section class="features-section">
+            <div class="container">
+                <ul>
+                    <li>Unlimited Tasks</li>
+                    <li>SMS Task Reminder</li>
+                    <li>Confetti Explosions upon Task Completion</li>
+                    <li>Social Media Announcements</li>
+                    <li>Real Time Collaboration</li>
+                    <li>Other awesome features</li>
+                </ul>
+
+                <img src="images/holding-phone.jpg" alt="man holding phone">
+            </div>
+
+        </section>
+
+        <section class="testimonials-section">
+            <div class="container">
+                <ul>
+                    <li>
+                        <img src="images/person.jpg" alt="person">
+                        <blockquote>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</blockquote>
+                        <cite>- Jane Doe</cite>
+                    </li>
+
+                    <li>
+                        <img src="images/person.jpg" alt="person">
+                        <blockquote>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</blockquote>
+                        <cite>- Jane Doe</cite>
+                    </li>
+
+                    <li>
+                        <img src="images/person.jpg" alt="person">
+                        <blockquote>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</blockquote>
+                        <cite>- Jane Doe</cite>
+                    </li>
+                    
+                </ul>
+            </div>
+
+        </section>
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-left">
+                    <h2>Contact</h2>
+                    <form action=''>
+                        <label for="name"> Name </label>
+                        <input type="text" name="name" id="name">
+
+                        <label for="message"> Message </label>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+                        <input type="submit" class="send-messafe-cta" value="Send Message">
+                    </form>
+                </div>
+                <div class="contact-right">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52871.866099047176!2d-118.43455339140397!3d34.08254393285968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bc04d6d147ab%3A0xd6c7c379fd081ed1!2sBeverly%20Hills%2C%20CA!5e0!3m2!1sen!2sus!4v1625681493645!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+    </body>
 </html>
